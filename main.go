@@ -22,14 +22,14 @@ func main() {
   switch args[0] {
   case "--stop":
     if len(args) < 2 {
-      fmt.Println("Usage: jar-boot --stop [jar path]")
+      fmt.Println("Usage: jargo --stop [jar path]")
       os.Exit(1)
     }
     jarPath := args[1]
     stopJavaJar(jarPath)
   case "--fork":
     if len(args) < 2 {
-      fmt.Println("Usage: jar-boot --fork [jar path] [jar args...]")
+      fmt.Println("Usage: jargo --fork [jar path] [jar args...]")
       os.Exit(1)
     }
     jarPath := args[1]
@@ -45,9 +45,9 @@ func main() {
 // Print usage instructions
 func printUsage() {
   fmt.Println("Usage:")
-  fmt.Println("  jar-boot [jar path] [jar args...]           Start jar in foreground")
-  fmt.Println("  jar-boot --fork [jar path] [jar args...]    Start jar in background")
-  fmt.Println("  jar-boot --stop [jar path]                  Stop jar")
+  fmt.Println("  jargo [jar path] [jar args...]           Start jar in foreground")
+  fmt.Println("  jargo --fork [jar path] [jar args...]    Start jar in background")
+  fmt.Println("  jargo --stop [jar path]                  Stop jar")
 }
 
 // Start the Java JAR either in foreground or background

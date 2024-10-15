@@ -146,7 +146,7 @@ JarGo 包含全面的错误处理，以确保操作顺利进行：
 
 ## 支持
 
-如果您遇到任何问题或有疑问，请在 [GitHub 仓库](https://github.com/litongjava/jargo/issues) 上打开一个问题，或通过电子邮件联系维护者：[your.email@example.com](mailto:your.email@example.com)。
+如果您遇到任何问题或有疑问，请在 [GitHub 仓库](https://github.com/litongjava/jargo/issues) 上打开一个问题，或通过电子邮件联系维护者：litonglinux@gmail.com。
 
 ## 致谢
 
